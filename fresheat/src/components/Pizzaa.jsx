@@ -39,7 +39,7 @@ const Pizzaa = () => {
             }}
           />        </motion.div>
           
-                          <div className='absolute xl:left-8 top-45 md:top-67  lg:top-110 space-y-2 sm:space-y-4 xl:space-y-8 '>
+                          <div className='absolute xl:left-8 top-45 md:top-67  lg:top-110 space-y-4 sm:space-y-6 xl:space-y-8 '>
                           <motion.h1
                            initial ={{opacity: 0, y: 50 }} 
                            whileInView={{opacity: 1, y: 0 }}

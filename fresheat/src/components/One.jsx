@@ -168,7 +168,7 @@ const SHIFT = CARD_WIDTH + GAP;
                                       initial="initial"
                                       whileHover="hover"
                                       whileTap="hover"
-                                      className="relative cursor-pointer z-10 overflow-hidden px-3 py-1.5 md:px-6 md:py-3 hover:border-1 hover:border-red-600  font-semibold text-white bg-red-600"
+                                      className="relative cursor-pointer z-10 overflow-hidden px-4 py-2 md:px-6 md:py-3 hover:border-1 hover:border-red-600  font-semibold text-white bg-red-600"
                                    >
                                  <span className="flex items-center gap-2 relative z-10">
                                     ORDER NOW
@@ -246,7 +246,7 @@ const SHIFT = CARD_WIDTH + GAP;
                      initial="initial"
                      whileHover="hover"
                       whileTap="hover"
-                     className="relative cursor-pointer z-10 overflow-hidden px-3 py-1.5 md:px-6 md:py-3 hover:border-1 hover:border-red-600  font-semibold text-white bg-[#FC791A]"
+                     className="relative cursor-pointer z-10 overflow-hidden px-4 py-2 md:px-6 md:py-3 hover:border-1 hover:border-red-600  font-semibold text-white bg-[#FC791A]"
                    >
                      <span className="flex items-center gap-2 relative z-10">
                       ORDER NOW
@@ -326,7 +326,7 @@ const SHIFT = CARD_WIDTH + GAP;
                      initial="initial"
                      whileHover="hover"
                       whileTap="hover"
-                     className="relative cursor-pointer z-10 overflow-hidden px-3 py-1.5 md:px-6 md:py-3 hover:border-1 hover:border-red-600  font-semibold text-white bg-red-600"
+                     className="relative cursor-pointer z-10 overflow-hidden px-4 py-2 md:px-6 md:py-3 hover:border-1 hover:border-red-600  font-semibold text-white bg-red-600"
                    >
                      <span className="flex items-center gap-2 relative z-10">
                       ORDER NOW

@@ -27,11 +27,11 @@ const Words = () => {
                      whileInView={{opacity: 1, y: 0 }}
                      transition={{duration:0.5}}
                      viewport={{once:true}}
-    className='w-full mt-8 md:mt-0 '>
+    className='w-full '>
     <div className='max-w-7xl mx-auto'>
         <div className="w-full bg-[#181818]   py-16 overflow-hidden">
   <motion.div
-    className="flex gap-10 text-[5vw] sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw] font-extrabold text-black whitespace-nowrap"
+    className="flex gap-10 pt-5 text-[5vw] sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw] font-extrabold text-black whitespace-nowrap"
     animate={{ x: ["100%", "-100%"] }}
     transition={{
       duration: 30,

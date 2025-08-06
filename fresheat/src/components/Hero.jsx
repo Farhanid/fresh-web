@@ -61,18 +61,10 @@ const buttonVariants = {
                              {titles[current]}
                         </h1>
                   </motion.div>
-          
 
 
 
-           
-     
-               </AnimatePresence>
-         </div>
-
-   
-     <div className=" xl:hidden absolute top-[70%] md:top-[55%] lg:top-[80%] left-10 md:left-20   xl:top-[47%] lg:left-30">
-        <AnimatePresence mode="wait">
+                   <AnimatePresence mode="wait">
           <motion.div
             key={current}
             initial="initial"
@@ -80,12 +72,13 @@ const buttonVariants = {
             exit="exit"
             variants={buttonVariants}
             transition={{ duration: 0.9, ease: "easeInOut" }}
+            className="px-4 md:px-10 lg:px-12 mt-3 md:mt-5 lg:mt-7 xl:mt-8"
           >
             <motion.button
               initial="initial"
               whileHover="hover"
               whileTap="hover"
-              className="relative cursor-pointer z-10 overflow-hidden px-3 py-1.5 md:px-6 md:py-3 font-semibold text-white bg-[#EB0029]"
+              className="relative cursor-pointer z-10 overflow-hidden px-4 py-2 md:px-6 md:py-3 font-semibold text-white bg-[#EB0029]"
             >
               <span className="flex items-center gap-2 relative z-10">
                 ORDER NOW
@@ -111,7 +104,18 @@ const buttonVariants = {
            
           </motion.div>
         </AnimatePresence>
-     </div>
+          
+
+
+
+
+           
+     
+               </AnimatePresence>
+         </div>
+
+   
+    
 
 
                        {/* */}
